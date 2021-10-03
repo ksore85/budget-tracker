@@ -28,8 +28,8 @@ router.get("/api/transaction", (req, res) => {
       if (dbTransaction.length === 0) {
         let firstTime = {
           "_id": "615a056023b89239ebf49a02",
-          "name": "transaction 4",
-          "value": 6,
+          "name": "Starting Point",
+          "value": 0,
           "date": "2021-10-03T19:32:48.933Z",
           "__v": 0
       }
