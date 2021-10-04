@@ -1,11 +1,34 @@
 # Budget Tracker
 
-AS AN avid traveler
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling 
+## Description
+A Progressive Web Application that enables users to track withdrawals and deposits, with or without an internet connection.
 
-GIVEN a budget tracker without an internet connection
-WHEN the user inputs an expense or deposit
-THEN they will receive a notification that they have added an expense or deposit
-WHEN the user reestablishes an internet connection
-THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated
+## Table of Contents
+- [Usage](#usage)
+- [Features](#features)
+- [License](#license)
+- [Credits](#credits)
+- [Questions, Comments, Suggestions](#questions-comments-suggestions)
+
+## Usage
+Enter a transaction name in the provided field, followed by a transaction amount in the alternative field. If the transaction is a deposit, click "Add Funds" button. If the transaction is a withdrawal, click "Subtract Funds" button. 
+
+For offline functionality; in Chrome DevTools, open the Network tab and set connection to "Offline." Then complete the above tasks before returning the connection to "No throttling." The app will reconnect to the database and save the offline transactions created. 
+
+## Features
+ - HTML
+ - CSS
+ - JavaScript
+ - Express.js
+ - Mongoose
+ - MongoDB
+
+## License
+[![license-MIT-blue.png](https://img.shields.io/badge/license-MIT-blue)](#License)
+
+## Credits
+### Developed By
+- [Kyle Sorensen, Full Stack Developer](https://www.github.com/ksore85)
+
+## Questions, Comments, Suggestions
+Please email [Kyle Sorensen](mailto:ksore85@gmail.com) with any questions, to report any bugs, or to make any feature suggestions. You can also [contact Kyle Sorensen on GitHub](https://www.github.com/ksore85).
